@@ -1,0 +1,45 @@
+<html>
+  
+  <head>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>Welcome to Rock, Paper, Scissors!</h1>
+    </header>
+    <section class="container">
+      <div class="image-container">
+        <img src="images/rock.jpg" class="image_choice" data-tag="Rock">
+        <img src="images/paper.jpg" class="image_choice" data-tag="Paper">
+        <img src="images/scissors.jpg" class="image_choice" data-tag="Scissors">
+      </div>
+    </section>
+    <section class="container">
+      <div id="result_block">
+      <h3>User: <span id='user_choice'></span>
+      <h3>CPU : <span id='cpu_choice'></span>
+      <div>
+    </section>
+    <section class="container">
+      <div class="standings_box">
+        <h2>STANDINGS</h2>
+        <div class="third_box">
+          <h4>W</h4>
+          <span id="Win">0</span>
+        </div>
+        <div class="third_box">
+            <h4>L</h4>
+            <span id="Loss">0</span>
+        </div>
+        <div class="third_box">
+            <h4>T</h4>
+            <span id="Tie">0</span>
+        </div>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
